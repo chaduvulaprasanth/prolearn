@@ -1,0 +1,147 @@
+/*css reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*my reset*/
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+
+html{
+	font-size: 16px;
+}
+body {
+	background-color:  aqua;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.grid-wrapper{
+	margin: 4rem 6rem;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	height: calc(100vh - 8rem);
+	border-radius: 3rem;
+	background-color: white;
+	box-shadow: 0 0 -500px 0 ;
+}
+.sections {
+	background-color: white;
+	border-radius: 3rem;
+	margin: 1rem;
+}
+
+.content {
+	background-color: aqua;
+	border-radius: 3rem;
+	margin: 1rem;
+	box-shadow: 0 0 100px 0 lightgrey ;
+}
+.wrapper{
+	margin: 3rem 4rem;
+}
+.logo{
+	color: #624ABF;
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: 0.06rem;
+	
+
+}
+.heading {
+	color: #450E56;
+	font-size: 2rem;
+	font-weight: 400;
+	letter-spacing: 0.06rem;
+	line-height: 1.2;
+	margin-top: 5rem;
+
+}
+.section-items-flex{
+	display: flex;
+	align-items: center;
+	margin: 3rem 0 ;
+}
+.round-img{
+	background-color: #F7F6FC;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	box-shadow: 0 0 15px 0 lightgrey ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section-items-name {
+	color: #450E56;
+	margin-left: 1.5rem;
+	font-size: 1.4rem;
+	font-weight: 500;
+	letter-spacing: 0.06rem;
+}
+.flex{
+	display: flex;
+	margin-top: 11rem;
+	justify-content: space-evenly;
+
+}
+.box{
+	width: 13rem;
+	height: 17rem;
+	border-radius: 1rem;
+	background-color: white;
+	margin-right: 1rem;
+	box-shadow: 0 0 5px 0 lightgrey ;
+  	
+  
+}
